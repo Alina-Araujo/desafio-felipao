@@ -1,29 +1,29 @@
 let heroi = "Oli"
 let xp = 8500
-    if (xp) {
-        case <= 1000 ;
+    switch (xp) {
+        case <= 1000 :
             console.log ("Ferro")
             break
-            case <= 2000 ;
+            case <= 2000 :
                 console.log ("Bronze")
                 break
-                case <= 5000 ;
+                case <= 5000 :
                     console.log ("Prata")
                     break
-                    case <= 7000 ;
+                    case <= 7000 :
                         console.log ("Ouro")
                         break
-                        case <= 8000 ;
+                        case <= 8000 :
                             console.log ("Platina")
                             break
-                            case <= 9000 ;
+                            case <= 9000 :
                                 console.log ("Ascendente")
                                 break
-                                case <= 10000 ;
+                                case <= 10000 :
                                     console.log ("Imortal")
                                     break
-                                    default 
+                                    default :
                                     console.log ("Radiante")
  }
- console.log ("O" + heroi "está no nível" + xp)
+ console.log ("O" + heroi , "está no nível" + xp)
  
