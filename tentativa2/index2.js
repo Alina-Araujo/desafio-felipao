@@ -1,31 +1,32 @@
 let heroi = "Oli"
-let xpHeroi = 11000
+let xpHeroi = 8500
 
+let nivelHeroi 
 switch (xpHeroi){
     case xpHeroi <= 1000 :
-        xpHeroi = "Ferro"
-        break
+        nivelHeroi = "Ferro";
+        break;
     case xpHeroi >1000 && xpHeroi <= 2000 :
-        xpHeroi = "Bronze"
-        break
+        nivelHeroi = "Bronze";
+        break;
     case xpHeroi >2000 && xpHeroi <= 5000 :
-        xpHeroi = "Prata"
-        break
+        nivelHeroi = "Prata";
+        break;
     case xpHeroi >5000 && xpHeroi <= 7000 :
-        xpHeroi = "Ouro"
-        break
+        nivelHeroi = "Ouro";
+        break;
     case xpHeroi >7000 && xpHeroi <= 8000 :
-        xpHeroi ="Platina"
-        break
+        nivelHeroi ="Platina";
+        break;
     case xpHeroi >8000 && xpHeroi <= 9000 :
-        xpHeroi = "Ascendente"
-        break
+        nivelHeroi = "Ascendente";
+        break;
     case xpHeroi >9000 && xpHeroi <= 10000 :
-        xpHeroi = "Imortal"
-        break
-
-    default :
-    xpHeroi = "Radiante"
+        nivelHeroi = "Imortal";
+        break;
+    default : 
+    nivelHeroi ="Radiante";
+   
 }
 
-console.log ("O herói de nome " + heroi  + " está no nível " + xpHeroi)
+console.log ("O herói de nome " + heroi  + " está no nível " + nivelHeroi)
